@@ -22,7 +22,7 @@ function limit(userLowerLimit, userUpperLimit) {
     }
     response.json().then(function(data) {
         console.log(data);
-        for (let i = 0; i < 293; i++) {
+        for (let i = 0; i < (userUpperLimit-userLowerLimit); i++) {
         console.log(data.results[i].name);
         console.log(data.results[i].url);
         
