@@ -11,17 +11,25 @@
         <div class="whole page" style="background-color: darkgrey; padding-bottom: 1500px;">
             <div id="resp"></div>
             <nav class="navbar navbar-dark bg-dark">
-                <a class="navbar-brand" href="index.html">Main Page</a>
-                <a class="navbar-brand" href="abilitiesPage.html">Abilities</a>
-                <a class="navbar-brand" href="">Characteristics</a>
+                <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.html">Main Page</a>
+                    <a class="navbar-brand" href="abilitiesPage.html">Abilities</a>
+                    <a class="navbar-brand" href="">Characteristics</a>
                 <!-- Navbar content -->
               </nav>
     
             <div class="row">
               <div class="col">
-                <center><h1>Welcome to my Page!</h1></center>
+                <center><h1>Abilities</h1></center>
               </div>
             </div>
+            
+            <center>
+              <button class="btn btn-primary" onclick="getAbilities()">Get all abilities</button>
+              <br>
+              <br>
+              <div id="todos"></div>
+            </center>
             
             
             <script src="abilities.js"></script>
